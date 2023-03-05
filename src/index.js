@@ -1,11 +1,8 @@
-import "./style.css";
-// import * as dataBusiness from "./data-business";
-// import * as Utils from "../utils.js"
+
 import { getCharacters } from "./data-business.js";
 import { createCharacterRow, showCharacter, showEpisodes } from "../utils.js";
 import { infoGetCharacter } from "./data-business.js";
 import { infoGetEpisode } from "./data-business.js";
-
 
 getCharacters().then(
     data => {
